@@ -1,0 +1,35 @@
+-- Introduction
+
+Ben is opening up a new Pizza Restaurant, offering only take out and delivery services.
+He would like to be helped to monitor business performances.
+With this project I've build a tailormade and bespoke relational database, 
+to capture and store all the important informations and data that the business generates.
+
+-- Client requests
+
+The main areas the client would like to focus on are: customer orders, stock control, staff members.
+
+Customer orders data required
+	- Item name
+	- Item price
+	- Quantity
+	- Customer name
+	- Delivery address
+
+Stock control data required
+	- Wants to be able to know when it's time to order new stock
+	- To do this we're going to need more informations about:
+		- What ingredients go into each pizza
+		- Their quantity based on the size of pizza
+		- The existing stock level
+	- We'll assume the lead time for delivery by suppliers is the same for all ingredients
+
+Staff data requirements
+	- Wants to know which staff members are working when
+	- Based on the staff salary information, how much each pizza costs (ingredients + chefs + delivery)
+
+-- Approach
+
+The first step would be spec out all of the fields for the data we want to collect.
+Then I will be adding related tables and defining the table relationships.
+This process will be reducing redundancy and improve efficiency.
