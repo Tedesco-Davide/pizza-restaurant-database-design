@@ -27,9 +27,3 @@ Stock control data required
 Staff data requirements
 	- Wants to know which staff members are working when
 	- Based on the staff salary information, how much each pizza costs (ingredients + chefs + delivery)
-
--- Approach
-
-The first step would be spec out all of the fields for the data we want to collect.
-Then I will be adding related tables and defining the table relationships.
-This process will be reducing redundancy and improve efficiency.
